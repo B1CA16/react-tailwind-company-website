@@ -9,7 +9,7 @@ const Footer = () => {
                 <ul className="space-y-2">
                     {resourcesLinks.map((link, index) => (
                         <li key={index}>
-                            <a className="text-neutral-300 hover:text-white" href="{link.href}">{link.text}</a>
+                            <a className="text-neutral-300 hover:text-white" href="#">{link.text}</a>
                         </li>
                     ))}
                 </ul>
@@ -19,7 +19,7 @@ const Footer = () => {
                 <ul className="space-y-2">
                     {platformLinks.map((link, index) => (
                         <li key={index}>
-                            <a className="text-neutral-300 hover:text-white" href="{link.href}">{link.text}</a>
+                            <a className="text-neutral-300 hover:text-white" href="#">{link.text}</a>
                         </li>
                     ))}
                 </ul>
@@ -29,7 +29,7 @@ const Footer = () => {
                 <ul className="space-y-2">
                     {communityLinks.map((link, index) => (
                         <li key={index}>
-                            <a className="text-neutral-300 hover:text-white" href="{link.href}">{link.text}</a>
+                            <a className="text-neutral-300 hover:text-white" href="#">{link.text}</a>
                         </li>
                     ))}
                 </ul>
